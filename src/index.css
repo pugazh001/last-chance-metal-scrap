@@ -1,0 +1,16 @@
+
+body {
+  margin: 0;
+  padding: 0;
+ 
+
+}
+.slick-dots li.slick-active button::before {
+  color: #FFEB3B; /* Highlight active dot in yellow */
+  opacity: 1;     /* Full opacity */
+}
+
+.slick-dots li button::before {
+  color: #ccc;    /* Default color for inactive dots */
+  opacity: 0.7;   /* Slightly faded */
+}
